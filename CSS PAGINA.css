@@ -1,0 +1,88 @@
+*{																						/*Esto es para que no haya ningun margen pordefecto del navegador :)*/
+	margin: 0px;
+	padding: 0px;
+}
+
+body{																					/*Este es el fondo de la pag*/
+background-color: #0CEABC;
+}
+
+#container{  																			/*cuerpo*/
+	width: 1100px; /*El tamaÃ±o de la caja horizontalmente*/
+	margin: 0px auto;
+	border: 1px solid orange;/*grosor del margen y color*/
+}
+
+header{
+background: rgb(90, 2, 2); /*Fondo del titulo*/													/*Cabecera*/
+	height: 100px; /*Fondo altura*/
+	width: 100%; /*Fondo anchura*/
+	text-align: center;/*Para que el texto este centrado*/
+	line-height: 100px; /*Para centrar el texto de arriba a abajo*/
+	color: rgb(0, 236, 217); /*Para el color de la letra*/
+	border: solid rgb(253, 72, 229);/* borde y su color */ 
+}
+
+nav ul li {																				/*Menu*/
+	float: left;/*Esto hace que se floten y se pongan uno al lado del otro*/
+	list-style: none;/*Esto le quita los estilos*/
+	margin: 10px;/*Esto hace que se separen*/
+	line-height: 30px;/*Centra las opciones del menu de forma vertical*/
+}
+
+.clearfix{																				/*Esto es para que los menus no se suban*/
+clear: both;
+}
+
+nav{																					/*Color del menu (fondo)*/
+	background: #5cc914;/*Color del menu*/
+	height: 50px;/*Tamano del menu*/												
+}
+
+#content{																				/*Contenido*/
+	float: left;/*Esto es para subir la barra lateral*/
+	width: calc(80% - 80px);/*El tamano de la caja horizontal*/
+	background: white;/*El color de fondo*/
+	min-height: 500px;/*Altura minima (fondo)*/
+	padding: 40px;
+}
+
+.article{
+	color: black;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.article:first-child{
+	padding-top: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.article h2{
+	font-size: 25px;
+
+}
+
+aside{																					/*Barra lateral*/
+	float: left; /*Hace que flote y suba el contenido*/
+	width: calc(20% - 20px);/*TamaÃ±o horizontal de la barra lateral*/
+	background: lightblue;/*Color de la barra lateral (fondo)*/
+	min-height: 500px;/*Altura minima (fondo)*/
+	padding: 10px;
+}
+
+footer{
+	background: black;/*Color de fondo*/
+	color: white; /*Color de letra*/
+	text-align: left;/*Posicion del texto*/
+	height: 50px;/*TamaÃ±o de la caja vertical*/
+	line-height: 50px;/*Altura de las letras*/
+}
+img{
+	width: 35%;
+	padding-top: 20px;
+	padding-right: 20px;
+
+}
